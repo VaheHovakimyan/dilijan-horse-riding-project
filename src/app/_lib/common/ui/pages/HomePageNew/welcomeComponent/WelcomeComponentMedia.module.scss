@@ -1,0 +1,58 @@
+// Imports
+
+@import "../../../scss/variables/variables.scss";
+@import "../../../scss/variables/mixins.scss";
+
+// Style
+
+@include Laptop {
+  .welcome_main {
+    height: calc(100vh - 90px);
+    .welcome_main_opacity {
+      .welcome_content {
+        padding: 120px 40px;
+      }
+    }
+  }
+}
+
+@include Bg_mobile {
+  .welcome_main {
+    .welcome_main_opacity {
+      .welcome_content {
+        padding: 120px 20px;
+        text-align: center;
+        .welcome_content_title{
+          font-size: 28px;
+        }
+        .welcome_content_description{
+          font-size: 14px;
+        }
+        .welcome_content_btn{
+          margin: auto;
+          font-size: 14px;
+          padding: 10px 12px;
+        }
+      }
+    }
+  }
+}
+
+@include St_mobile{
+  .welcome_main {
+    background-position: center;
+    .welcome_main_opacity {
+      .welcome_content {
+        .welcome_content_title{
+          font-size: 22px;
+        }
+        .welcome_content_description{
+          font-size: 12px;
+        }
+        .welcome_content_btn{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

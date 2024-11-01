@@ -1,0 +1,94 @@
+// Imports
+
+@import "../../scss/variables/variables.scss";
+@import "../../scss/variables/mixins.scss";
+
+// Media
+
+@include Ipad_pro {
+  .footer_main {
+    .footer_main_flex {
+      flex-direction: column;
+      align-items: center;
+      .footer_logo_social_flex {
+        align-items: center;
+        .footer_social_div {
+          .footer_social_contacts_div {
+            text-align: center;
+          }
+          .footer_social_icons_div {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include Bg_mobile {
+  .footer_main {
+    padding: 0 20px;
+    .footer_main_flex {
+      .footer_logo_social_flex {
+        .footer_social_div {
+          .footer_social_contacts_div {
+            .footer_social_contact {
+              font-size: 14px;
+            }
+          }
+          .footer_social_icons_div{
+            .footer_social_icon{
+              font-size: 40px;
+            }
+          }
+        }
+      }
+      .footer_mid_div_flex {
+        .footer_mid_div_title {
+          font-size: 20px;
+        }
+        .footer_mid_div_text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@include St_mobile{
+  .footer_main {
+    .footer_main_flex {
+      .footer_logo_social_flex {
+        gap: 24px;
+        .footer_social_div {
+          gap: 18px;
+          .footer_social_contacts_div {
+            .footer_social_contact {
+              font-size: 12px;
+            }
+          }
+          .footer_social_icons_div{
+            .footer_social_icon{
+              font-size: 30px;
+            }
+          }
+        }
+      }
+      .footer_mid_div_flex {
+        gap: 18px;
+        .footer_mid_div_title {
+          font-size: 15px;
+        }
+        .footer_mid_div_text {
+          font-size: 12px;
+        }
+      }
+      .footer_map_div{
+        gap: 20px;
+        .footer_map_title{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

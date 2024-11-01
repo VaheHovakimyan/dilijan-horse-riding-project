@@ -11,16 +11,16 @@
     "title": "next-intl Beispiel"
   },
   "LocaleSwitcher": {
-    "label": "Sprache ändern",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+    "label": "",
+    "locale": "{locale, select, am {🇦🇲 AM} en {🇺🇸 EN} ru {🇷🇺 RU} other {Unknown}}"
   },
   "Manifest": {
     "description": "",
     "name": ""
   },
   "Navigation": {
-    "home": "Start",
-    "pathnames": "About(DE)"
+    "home": "Glavniy",
+    "about": "O nas"
   },
   "NotFoundPage": {
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
@@ -41,7 +41,10 @@
     }
   },
   "PathnamesPage": {
-    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
-    "title": "De"
+    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/about</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/am/pfadnamen</code>).</p>",
+    "home": "Главный",
+    "services": "Наши сервисы ",
+    "about": "О нас",
+    "gallery": "Галерея"
   }
 }

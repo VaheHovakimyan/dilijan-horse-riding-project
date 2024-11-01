@@ -1,0 +1,18 @@
+// Imports
+
+@import "../../../scss/variables/variables.scss";
+@import "../../../scss/variables/mixins.scss";
+
+// Style
+
+@include notebook{
+  .partner_home_main_flex {
+    padding: 0 40px;
+  }
+}
+
+@include St_mobile {
+  .partner_home_main_flex {
+    padding: 0 20px;
+  }
+}

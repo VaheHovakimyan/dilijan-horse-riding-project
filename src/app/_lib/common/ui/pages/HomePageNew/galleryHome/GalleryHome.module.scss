@@ -1,0 +1,48 @@
+// Templates
+
+%grid_Template {
+  display: grid;
+  color: black;
+  .gallery_home_main_item {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    font-size: 100px;
+    height: 350px;
+    background-image: url("../../../assets/images/horse_image.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    .gallery_home_main_item_opacity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      .gallery_home_main_item_opacity_last {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 72px;
+      }
+    }
+  }
+}
+
+// Style
+
+.gallery_home_main {
+  margin: 0 40px;
+  .gallery_home {
+    max-width: 1440px;
+    margin: 40px auto;
+    .gallery_home_main_1 {
+      @extend %grid_Template;
+      grid-template-columns: 2fr 3fr 1fr;
+    }
+    .gallery_home_main_2 {
+      @extend %grid_Template;
+      grid-template-columns: 1fr 3fr 2fr;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+// Imports
+
+@import "../../../scss/variables/colors.scss";
+
+// Style
+
+.our_services_home_main {
+  margin: 0 auto 60px auto;
+  max-width: 1440px;
+  .our_services_home_title {
+    font-size: 48px;
+    color: $green_main;
+    text-align: center;
+    padding: 40px 0;
+    font-family: Verdana, serif;
+  }
+  .our_services_home_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    .our_services_home_item {
+      width: 100%;
+      min-width: 200px;
+      max-width: 450px;
+      height: 300px;
+      border-radius: 16px;
+      cursor: pointer;
+      overflow: hidden;
+      .our_services_home_item_opacity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        transition: all 0.4s linear;
+        .our_services_home_item_p_center{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          // background: url('https://i.ibb.co/kMsMGQ3/IMG-6693-2.jpg');
+        .our_services_home_item_p {
+          font-size: 32px;
+          color: rgb(240, 240, 240);
+          font-family: Verdana, serif;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+      }
+      }
+    }
+    .our_services_home_item:hover {
+      .our_services_home_item_opacity{
+        transition: all 0.3s linear;
+        transform: scale(1.15);
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+// Imports
+
+@import "../../../scss/variables/variables.scss";
+@import "../../../scss/variables/mixins.scss";
+
+// Style
+
+@include Laptop {
+  .slogan_home_main {
+    .slogan_home_opacity {
+      .slogan_home_slogan_laptop {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        .slogan_home_slogan_laptop_p {
+          color: white;
+          font-size: 50px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
+      }
+      .slogan_home_slogan {
+        display: none;
+      }
+    }
+  }
+}
+
+@include Bg_mobile {
+  .slogan_home_main {
+    .slogan_home_opacity {
+      .slogan_home_slogan_laptop {
+        gap: 8px;
+        .slogan_home_slogan_laptop_p {
+          font-size: 32px;
+          letter-spacing: 1.6px;
+        }
+      }
+    }
+  }
+}
+
+@include St_mobile {
+  .slogan_home_main {
+    .slogan_home_opacity {
+      .slogan_home_slogan_laptop {
+        .slogan_home_slogan_laptop_p {
+          font-size: 20px;
+          letter-spacing: 1.4px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+// Templates
+
+%grid_Template {
+  display: grid;
+  color: black;
+  .gallery_home_main_item {
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 100px;
+    height: 320px;
+    margin: 4px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    .gallery_home_main_item_opacity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      .gallery_home_main_item_opacity_last {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 72px;
+      }
+    }
+  }
+}
+
+// Style
+
+.gallery {
+  .gallery_home_main {
+    margin: 0 40px;
+    .gallery_home {
+      max-width: 1440px;
+      margin: 40px auto;
+      .gallery_home_main_row_first {
+        grid-template-columns: 2fr 3fr 1fr;
+        @extend %grid_Template;
+      }
+      .gallery_home_main_row_second {
+        grid-template-columns: 1fr 3fr 2fr;
+        @extend %grid_Template;
+      }
+      .gallery_home_main_row_third {
+        grid-template-columns: 3fr 2fr 1fr;
+        @extend %grid_Template;
+      }
+    }
+  }
+}

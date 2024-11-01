@@ -1,0 +1,44 @@
+// // Imports
+
+// @import "../../scss/variables/variables.scss";
+// @import "../../scss/variables/mixins.scss";
+
+// // Media
+
+// @include Laptop {
+//   .header {
+//     .header_flex {
+//       .header_content {
+//         padding: 0 40px;
+//         .routes_div {
+//           display: none;
+//         }
+//         .header_contact_lang{
+//           .header_contact{
+//             display: none;
+//           }
+//         }
+//         .header_burger_icon{
+//           display: block;
+//           font-size: 40px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// @include Bg_mobile {
+//   .header {
+//     .header_flex {
+//       .header_content {
+//         padding: 0 20px;
+//         .header_contact_lang {
+//           .header_lang {
+//             display: none;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,95 @@
+// Imports
+
+@import "../../scss/variables/variables.scss";
+@import "../../scss/variables/mixins.scss";
+
+// Style
+
+@include Laptop {
+  .about_page {
+    .about_page_content {
+      .about_page_image_text_div {
+        margin: 40px 20px;
+        .about_page_image {
+          max-width: 300px;
+          max-height: 300px;
+        }
+      }
+      .about_page_video_div {
+        .about_page_video {
+          margin: 0 20px;
+          height: 450px;
+        }
+      }
+      .about_page_image_text_div_second {
+        margin: 40px 20px;
+        .about_page_image {
+          max-width: 300px;
+          max-height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@include Bg_mobile {
+  .about_page {
+    .about_page_content {
+      .about_page_image_text_div {
+        margin: 20px 20px;
+        .about_page_image {
+          max-width: 200px;
+          max-height: 200px;
+        }
+        .about_page_image_text {
+          font-size: 16px;
+        }
+      }
+      .about_page_video_div {
+        .about_page_video {
+          height: 320px;
+        }
+      }
+      .about_page_image_text_div_second {
+        margin: 20px 20px;
+        .about_page_image {
+          max-width: 200px;
+          max-height: 200px;
+        }
+        .about_page_image_text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@include St_mobile {
+  .about_page {
+    .about_page_content {
+      .about_page_image_text_div {
+        .about_page_image {
+          margin: 0 16px 8px 0;
+        }
+        .about_page_image_text {
+          font-size: 13px;
+        }
+      }
+      .about_page_video_div {
+        .about_page_video {
+          height: 250px;
+        }
+      }
+      .about_page_image_text_div_second {
+        margin: 0 16px 8px 0;
+        .about_page_image {
+          max-width: 200px;
+          max-height: 200px;
+        }
+        .about_page_image_text {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.partner_home_main_flex {
+  max-width: 1440px;
+  margin: 0 auto;
+  .partner_home_main {
+    margin: 48px 0;
+    .swiper_item_image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

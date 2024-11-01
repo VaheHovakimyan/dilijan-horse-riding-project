@@ -1,0 +1,91 @@
+// Imports
+
+@import "../../scss/variables/colors.scss";
+
+// Style
+
+.footer_main {
+  background-color: $green_main;
+  padding: 0 40px;
+  box-shadow: 0 -8px 0 $footer_shadow_1, 0 -16px 0 $footer_shadow_2;
+  .footer_main_flex {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 0 auto;
+    padding: 40px 0;
+    .footer_logo_social_flex {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      .footer_logo {
+        border-radius: 8px;
+      }
+      .footer_social_div {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        .footer_social_contacts_div {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          .footer_social_contact {
+            white-space: nowrap;
+            font-size: 18px;
+            color: rgb(240, 240, 240);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+        }
+        .footer_social_icons_div {
+          display: flex;
+          gap: 8px;
+          .footer_social_icon_link {
+            width: 60px;
+            height: 60px;
+            .footer_social_icon {
+              font-size: 60px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .footer_mid_div_flex {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      max-width: 550px;
+      .footer_mid_div_title {
+        text-align: center;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 600;
+      }
+      .footer_mid_div_text {
+        text-align: center;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        line-height: 150%;
+      }
+    }
+    .footer_map_div {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      width: 300px;
+      text-align: center;
+      .footer_map_title {
+        font-size: 28px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .footer_map {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}

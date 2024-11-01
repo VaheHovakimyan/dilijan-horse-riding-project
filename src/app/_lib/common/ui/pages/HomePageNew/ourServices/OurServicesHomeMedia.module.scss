@@ -1,0 +1,28 @@
+// Imports
+
+@import "../../../scss/variables/variables.scss";
+@import "../../../scss/variables/mixins.scss";
+
+// Style
+
+@include Bg_mobile {
+  .our_services_home_main {
+    .our_services_home_title {
+      font-size: 26px;
+      padding: 24px 0;
+    }
+    .our_services_home_flex {
+      margin: 0 20px;
+      .our_services_home_item {
+        height: 250px;
+        .our_services_home_item_opacity {
+          .our_services_home_item_p_center {
+            .our_services_home_item_p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

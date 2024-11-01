@@ -1,0 +1,62 @@
+// Imports
+
+@import "../../../scss/variables/variables.scss";
+@import "../../../scss/variables/mixins.scss";
+
+// Style
+
+@include Laptop {
+  .gallery_home_main {
+    .gallery_home {
+      .gallery_home_main_2 {
+        .gallery_home_main_item {
+          .gallery_home_main_item_opacity {
+            .gallery_home_main_item_opacity_last {
+              font-size: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include Bg_mobile {
+  .gallery_home_main {
+    .gallery_home {
+      .gallery_home_main_1 {
+        .gallery_home_main_item {
+          height: 200px;
+        }
+      }
+      .gallery_home_main_2 {
+        .gallery_home_main_item {
+          height: 200px;
+          .gallery_home_main_item_opacity {
+            .gallery_home_main_item_opacity_last {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include St_mobile{
+  .gallery_home_main {
+    margin: 0 20px;
+    .gallery_home {
+      .gallery_home_main_1 {
+        .gallery_home_main_item {
+          height: 150px;
+        }
+      }
+      .gallery_home_main_2 {
+        .gallery_home_main_item {
+          height: 150px;
+        }
+      }
+    }
+  }
+}

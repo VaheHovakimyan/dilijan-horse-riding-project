@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  scroll-behavior: smooth;
+  overflow: unset;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  user-select: none;
+}
+
+svg{
+  cursor: pointer;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+@font-face {
+  font-family: NotoColorEmojiLimited;
+  unicode-range: U+1F1E6-1F1FF;
+  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+select {
+  font-family: 'NotoColorEmojiLimited', 'serif';
+}

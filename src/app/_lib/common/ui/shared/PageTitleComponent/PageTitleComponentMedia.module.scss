@@ -1,0 +1,33 @@
+// Imports
+
+@import "../../scss/variables/variables.scss";
+@import "../../scss/variables/mixins.scss";
+
+// Style
+
+@include Laptop {
+  .page_title_div_flex {
+    height: 200px;
+  }
+}
+
+@include Bg_mobile {
+  .page_title_div_flex {
+    .page_title_div_flex_opacity {
+      .page_title {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@include St_mobile {
+  .page_title_div_flex {
+    height: 175px;
+    .page_title_div_flex_opacity {
+      .page_title {
+        font-size: 21px;
+      }
+    }
+  }
+}
