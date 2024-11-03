@@ -2,7 +2,6 @@
 import React from "react";
 import style from "./WelcomeComponent.module.scss";
 import mediaStyle from './WelcomeComponentMedia.module.scss';
-import Link from "next/link";
 import NavigationLink from "@/app/_components/NavigationLink";
 
 // const getData = async () => {
@@ -17,13 +16,18 @@ import NavigationLink from "@/app/_components/NavigationLink";
 
 
 const WelcomeComponent = () => {
-  // const data = await getData();
-
-  // console.log("welcome data:", data);
 
 
   return (
     <div className={`${style.welcome_main} ${mediaStyle.welcome_main}`}>
+      <video
+        loop
+        autoPlay
+        muted
+        className={`${style.welcome_main_video} ${mediaStyle.welcome_main_video}`}>
+
+        <source src="/horse_video.mp4" />
+      </video>
       <div className={`${style.welcome_main_opacity} ${mediaStyle.welcome_main_opacity}`}>
         <div className={`${style.welcome_content} ${mediaStyle.welcome_content}`}>
           <h1 className={`${style.welcome_content_title} ${mediaStyle.welcome_content_title}`}>Dilijan Horse Riding</h1>

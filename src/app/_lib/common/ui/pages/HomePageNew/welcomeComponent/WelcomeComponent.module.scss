@@ -1,13 +1,16 @@
 .welcome_main {
   display: flex;
   align-items: center;
-  height: 800px;
+  position: relative;
   width: 100%;
-  background-image: url("../../../assets/images/home_main_background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0 auto;
+  .welcome_main_video{
+    width: 100%;
+  }
   .welcome_main_opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.55);
