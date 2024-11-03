@@ -1,6 +1,6 @@
-"use client";
+// "use client";
 
-import React, { FC, useContext } from "react";
+// import React, { FC, useContext } from "react";
 import "../../scss/index.scss";
 import WelcomeComponent from "./welcomeComponent/WelcomeComponent";
 import OurServicesHome from "./ourServices/OurServicesHome";
@@ -152,7 +152,7 @@ const welcome_data_am = {
 
 // export const LangContext = createContext({lang: 1});
 
-const HomePageNew: FC<IHomePageNew> = ({ data }) => {
+const HomePageNew = ({}) => {
 
   // let data_lang;
 

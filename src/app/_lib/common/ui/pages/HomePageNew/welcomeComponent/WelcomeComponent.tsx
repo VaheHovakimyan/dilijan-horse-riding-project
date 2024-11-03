@@ -28,7 +28,6 @@ const WelcomeComponent = () => {
         width={200}
         height={1200}
         >
-
         <source src="/horse_video.mp4" />
       </video>
       <div className={`${style.welcome_main_opacity} ${mediaStyle.welcome_main_opacity}`}>
