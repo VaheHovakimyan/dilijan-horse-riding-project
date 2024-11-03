@@ -4,7 +4,6 @@ import mediaStyle from './PageTitleComponentMedia.module.scss';
 
 export default function PageTitleComponent({ title }: { title: string }) {
 
-
   return (
     <div className={`${style.page_title_div_flex} ${mediaStyle.page_title_div_flex}`}>
       <div className={`${style.page_title_div_flex_opacity} ${mediaStyle.page_title_div_flex_opacity}`}>

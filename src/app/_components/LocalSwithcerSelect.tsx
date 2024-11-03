@@ -1,13 +1,12 @@
 'use client'
 
 import {ChangeEvent, ReactNode, useTransition} from "react";
-
 import {usePathname} from "@/navigation";
 import {useParams} from "next/navigation";
 import clsx from "clsx";
 import {useRouter} from "@/i18n/routing";
-import style from './Header/Header.module.scss';
-import mediaStyle from './Header/HeaderMedia.module.scss';
+import style from '../_lib/common/ui/shared/Header/Header.module.scss';
+import mediaStyle from '../_lib/common/ui/shared/Header/HeaderMedia.module.scss';
 
 type Props = {
   children: ReactNode;

@@ -45,19 +45,21 @@ export const Footer = ({ }: {}) => {
         </div>
         <div className={`${style.footer_mid_div_flex} ${mediaStyle.footer_mid_div_flex}`}>
           <h3 className={`${style.footer_mid_div_title} ${mediaStyle.footer_mid_div_title}`}>Come feel the breath of the mountains</h3>
-          <p className={`${style.footer_mid_div_text} ${mediaStyle.footer_mid_div_text}`}>
-            Dilijan Horseriding-ը նախ և առաջ պրոեկտ է,
-            որով ապրում ու զարգանում է գյուղը, ի
-            շնորհիվ մեր նախաձեռնության շատ տուրիզմի
-            ուղղություններ Տավուշի մարզում դարձան էլ
-            ավելի պոպուլյառ, բացվեցին մի շարք հյուրատներ
-            ու մարդիկ սկսեցին մտածել Հայրենի բնաշխարհում
-            ապրելու ու արարելու մասին: Մեր գլխավոր
-            առաքելությունն է մարդկանց մեջ սերմանել սերը դեպի
-            բնությունը, լեռներն ու կենդանիները, և դա է պատճառը,
-            որ մեր 1000 ավոր հյուրեր գալով մեզ մոտ միշտ գտնում
-            ու իրենց հետ տանում են՝ ՍԱՐԵՐ ՁՈՐԵՐ ՈՒ ԼԻ՜ ՔԸ ՍԵՐ
-          </p>
+          <div>
+            <p className={`${style.footer_mid_div_text} ${mediaStyle.footer_mid_div_text}`}>
+              Dilijan Horseriding-ը պրոեկտ է, որով ապրում ու զարգանում
+              է գյուղը, ի շնորհիվ նախաձեռնության տուրիզմի շատ
+              ուղղություններ Տավուշի մարզում դարձան էլ ավելի
+              ճանաչելի, բացվեցին մի շարք հյուրատներ ու մարդիկ սկսեցին
+              մտածել հայրենի բնաշխարհում նոր գաղափարներ արարելու մասին:
+              Մեր գլխավոր առաքելությունն է մեզ այցելող հյուրերի մեջ սերմանել
+              սերը դեպի բնությունը, լեռներն ու կենդանիները, և դա է պատճառը,
+              որ մեր 1000 ավոր հյուրեր գալով մեզ մոտ միշտ գտնում ու իրենց հետ տանում են՝
+            </p>
+            <p className={`${style.footer_slogan} ${mediaStyle.footer_slogan}`}>
+              ՍԱՐԵՐ ՁՈՐԵՐ ՈՒ ԼԻ՜ ՔԸ ՍԵՐ
+            </p>
+          </div>
         </div>
         <div className={`${style.footer_map_div} ${mediaStyle.footer_map_div}`}>
           <p className={`${style.footer_map_title} ${mediaStyle.footer_map_title}`}>We are on the map</p>
@@ -69,5 +71,3 @@ export const Footer = ({ }: {}) => {
     </div>
   );
 };
-
-export default Footer;

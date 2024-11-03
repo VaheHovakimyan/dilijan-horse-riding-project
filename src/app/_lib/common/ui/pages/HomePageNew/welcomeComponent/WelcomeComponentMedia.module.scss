@@ -18,38 +18,43 @@
 
 @include Bg_mobile {
   .welcome_main {
+    background-position: center;
+    height: calc(70vh - 90px);
     .welcome_main_opacity {
       .welcome_content {
         padding: 120px 20px;
         text-align: center;
-        .welcome_content_title{
+        .welcome_content_title {
           font-size: 28px;
         }
-        .welcome_content_description{
+        .welcome_content_description {
           font-size: 14px;
         }
-        .welcome_content_btn{
+        .welcome_content_btn_link {
+          width: 70%;
           margin: auto;
-          font-size: 14px;
-          padding: 10px 12px;
+          margin-top: 18px;
+          .welcome_content_btn {
+            font-size: 14px;
+            padding: 10px 12px;
+          }
         }
       }
     }
   }
 }
 
-@include St_mobile{
+@include St_mobile {
   .welcome_main {
-    background-position: center;
     .welcome_main_opacity {
       .welcome_content {
-        .welcome_content_title{
+        .welcome_content_title {
           font-size: 22px;
         }
-        .welcome_content_description{
+        .welcome_content_description {
           font-size: 12px;
         }
-        .welcome_content_btn{
+        .welcome_content_btn_link {
           width: 100%;
         }
       }
