@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Footer } from "../_lib/common/ui";
-import Header from "../_components/Header/Header";
+import Header from "../_lib/common/ui/shared/Header/Header";
 // import { languages } from '../i18n/settings'
 
 // import website_icon from "../_lib/common/ui/assets/icons/website_title_icons/website_title_icon.png";

@@ -10,13 +10,13 @@ export const SloganHome = () => {
     <div className={`${style.slogan_home_main} ${mediaStyle.slogan_home_main}`} style={{ paddingBottom: "700px" }}>
       <div className={`${style.slogan_home_opacity} ${mediaStyle.slogan_home_opacity}`}>
         
-        <div className={`${style.slogan_home_slogan_laptop} ${mediaStyle.slogan_home_slogan_laptop}`}>
+        {/* <div className={`${style.slogan_home_slogan_laptop} ${mediaStyle.slogan_home_slogan_laptop}`}>
           <p className={`${style.slogan_home_slogan_laptop_p} ${mediaStyle.slogan_home_slogan_laptop_p}`}>text</p>
           <p className={`${style.slogan_home_slogan_laptop_p} ${mediaStyle.slogan_home_slogan_laptop_p}`}>text</p>
           <p className={`${style.slogan_home_slogan_laptop_p} ${mediaStyle.slogan_home_slogan_laptop_p}`}>text</p>
         </div>
 
-        <h3 className={`${style.slogan_home_slogan} ${mediaStyle.slogan_home_slogan}`}>text text</h3>
+        <h3 className={`${style.slogan_home_slogan} ${mediaStyle.slogan_home_slogan}`}>text text</h3> */}
       </div>
 
       {/* <video

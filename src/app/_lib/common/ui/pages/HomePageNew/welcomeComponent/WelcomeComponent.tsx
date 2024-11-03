@@ -3,6 +3,7 @@ import React from "react";
 import style from "./WelcomeComponent.module.scss";
 import mediaStyle from './WelcomeComponentMedia.module.scss';
 import Link from "next/link";
+import NavigationLink from "@/app/_components/NavigationLink";
 
 // const getData = async () => {
 //   try {
@@ -27,11 +28,11 @@ const WelcomeComponent = () => {
         <div className={`${style.welcome_content} ${mediaStyle.welcome_content}`}>
           <h1 className={`${style.welcome_content_title} ${mediaStyle.welcome_content_title}`}>Dilijan Horse Riding</h1>
           <p className={`${style.welcome_content_description} ${mediaStyle.welcome_content_description}`}>
-            Hello world!
+            ՍԱՐԵՐ, ՁՈՐԵՐ ՈՒ ԼԻ՜ՔԸ ՍԵՐ
           </p>
-          <Link href={"#services"}>
+          <NavigationLink href={"/#services"} className={`${style.welcome_content_btn_link} ${mediaStyle.welcome_content_btn_link}`}>
             <button className={`${style.welcome_content_btn} ${mediaStyle.welcome_content_btn}`}>Our services</button>
-          </Link>
+          </NavigationLink>
         </div>
       </div>
     </div>

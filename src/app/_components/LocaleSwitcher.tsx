@@ -1,7 +1,7 @@
 import {useLocale, useTranslations} from 'next-intl';
 import LocaleSwitcherSelect from './LocalSwithcerSelect';
 import {routing} from '@/i18n/routing';
-import style from './Header/Header.module.scss';
+import style from '../_lib/common/ui/shared/Header/Header.module.scss';
 
 export default function LocaleSwitcher() {
   const t = useTranslations('LocaleSwitcher');
