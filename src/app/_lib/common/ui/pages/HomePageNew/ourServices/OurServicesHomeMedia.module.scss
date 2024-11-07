@@ -8,7 +8,7 @@
 @include Bg_mobile {
   .our_services_home_main {
     .our_services_home_title {
-      font-size: 26px;
+      font-size: 22px;
       padding: 24px 0;
     }
     .our_services_home_flex {
@@ -23,6 +23,14 @@
           }
         }
       }
+    }
+  }
+}
+
+@include St_mobile {
+  .our_services_home_main {
+    .our_services_home_title {
+      font-size: 17px;
     }
   }
 }

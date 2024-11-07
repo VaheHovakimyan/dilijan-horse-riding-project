@@ -42,7 +42,6 @@ export default function LocaleSwitcherSelect({
         isPending && 'transition-opacity [&:disabled]:opacity-30'
       )}
     >
-      <p className="sr-only">{label}</p>
       <select
       className={`${style.header_lang} ${mediaStyle.header_lang}`}
         defaultValue={defaultValue}
@@ -51,8 +50,6 @@ export default function LocaleSwitcherSelect({
       >
         {children}
       </select>
-      {/* <span className="pointer-events-none absolute right-2 top-[8px]">⌄</span> */}
     </label>
   )
-
 }

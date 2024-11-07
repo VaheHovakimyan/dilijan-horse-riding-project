@@ -19,48 +19,51 @@
     "gallery": "Галерея"
   },
   "OurServices": {
-    "horseriding": {
-      "key": "0",
-      "name": "Ձիավարություն",
-      "image": "https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88"
-    },
-    "jeeping":{
-      "key": "1",
-      "name": "Jeeping դեպի Dimac",
-      "image": "https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88"
-    },
-    "teambuilding":{
-      "key": "2",
-      "name": "Թիմբիլդինգ",
-      "image": "https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88"
-    },
-    "photoshoot":{
-      "key": "3",
-      "name": "Ֆոտոշութ",
-      "image": "https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88"
-    },
-    "camping":{
-      "key": "4",
-      "name":"Արշավ",
-      "image": "https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88"
-    },
-    "quadricycle":{
-      "key": "5",
-      "name": "Կվադրոսայքլ",
-      "image": "https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88"
+    "title": "Наши услуги",
+    "services": {
+      "horseriding": {
+        "key": "0",
+        "name": "Верховая езда",
+        "image": "https://i.ibb.co/g3mMwk2/IMG-6462.webp"
+      },
+      "jeeping": {
+        "key": "1",
+        "name": "Джиппинг в Диматс",
+        "image": "https://i.ibb.co/bQd602w/IMG-8847-2.webp"
+      },
+      "teambuilding": {
+        "key": "2",
+        "name": "Тимбилдинг",
+        "image": "https://i.ibb.co/L9gJCLm/IMG-9410.webp"
+      },
+      "photoshoot": {
+        "key": "3",
+        "name": "Фотосессия",
+        "image": "https://i.ibb.co/3dNGVp6/IMG-2885.webp"
+      },
+      "camping": {
+        "key": "4",
+        "name": "Кемпинг",
+        "image": "https://i.ibb.co/yR9r7Pz/IMG-9067.webp"
+      },
+      "quadricycle": {
+        "key": "5",
+        "name": "Квадроцикл",
+        "image": "https://i.ibb.co/qsRNmrD/IMG-1346.webp"
+      }
     }
   },
   "Footer": {
-    "contacts":{
+    "contacts": {
       "telephone": "Номер тел.: (+374)77-97-73-34",
       "address": "Адрес: Дилижан, Село Агарцин",
       "email": "Эл. почта: dilijanhorseriding@gmail.com"
     },
     "FooterDescription": {
       "title": "Приходите, почувствуйте дыхание гор",
-      "description":"Dilijan Horseriding-ը պրոեկտ է, որով ապրում ու զարգանում է գյուղը, ի շնորհիվ նախաձեռնության տուրիզմի շատ ուղղություններ Տավուշի մարզում դարձան էլ ավելի ճանաչելի, բացվեցին մի շարք հյուրատներ ու մարդիկ սկսեցին մտածել հայրենի բնաշխարհում նոր գաղափարներ արարելու մասին: Մեր գլխավոր առաքելությունն է մեզ այցելող հյուրերի մեջ սերմանել սերը դեպի բնությունը, լեռներն ու կենդանիները, և դա է պատճառը, որ մեր 1000 ավոր հյուրեր գալով մեզ մոտ միշտ գտնում ու իրենց հետ տանում են՝",
+      "description": "Dilijan Horseriding-ը պրոեկտ է, որով ապրում ու զարգանում է գյուղը, ի շնորհիվ նախաձեռնության տուրիզմի շատ ուղղություններ Տավուշի մարզում դարձան էլ ավելի ճանաչելի, բացվեցին մի շարք հյուրատներ ու մարդիկ սկսեցին մտածել հայրենի բնաշխարհում նոր գաղափարներ արարելու մասին: Մեր գլխավոր առաքելությունն է մեզ այցելող հյուրերի մեջ սերմանել սերը դեպի բնությունը, լեռներն ու կենդանիները, և դա է պատճառը, որ մեր 1000 ավոր հյուրեր գալով մեզ մոտ միշտ գտնում ու իրենց հետ տանում են՝",
       "slogan": "ՍԱՐԵՐ, ՁՈՐԵՐ ՈՒ ԼԻ՜ ՔԸ ՍԵՐ"
     },
-    "mapTitle": "Мы на карте" 
+    "mapTitle": "Мы на карте"
   }
 }
