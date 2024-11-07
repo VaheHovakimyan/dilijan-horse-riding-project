@@ -8,11 +8,12 @@
   margin: 0 auto 60px auto;
   max-width: 1440px;
   .our_services_home_title {
-    font-size: 48px;
+    font-size: 36px;
     color: $green_main;
     text-align: center;
     padding: 40px 0;
     font-family: Verdana, serif;
+    text-transform: uppercase;
   }
   .our_services_home_flex {
     display: flex;
