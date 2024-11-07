@@ -25,7 +25,6 @@ const WelcomeComponent = () => {
         autoPlay
         muted
         className={`${style.welcome_main_video} ${mediaStyle.welcome_main_video}`}
-        width={200}
         height={1200}
         >
         <source src="/horse_video.mp4" />
