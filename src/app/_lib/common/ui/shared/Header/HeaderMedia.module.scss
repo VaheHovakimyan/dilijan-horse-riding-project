@@ -11,10 +11,16 @@
       .header_content {
         flex-direction: column;
         padding: 0 40px;
+        .header_logo{
+          margin: 4px 0;
+        }
         .routes_accordion{
           .routes_div_accordion{
             flex-direction: column;
-            gap: 8px;
+            gap: 12px;
+            .header_nav_link_text{
+              font-size: 20px !important;
+            }
           }
         }
         .header_contact_lang{

@@ -23,12 +23,13 @@ const Header = () => {
         <div className={`${style.header_flex} ${mediaStyle.header_flex}`}>
           <div className={`${style.header_content} ${mediaStyle.header_content}`}>
 
-            <NavigationLink href={"/"} className={style.header_nav_link}>
+            <NavigationLink href={"/"}>
               <Image
                 src={header_logo}
                 width={205}
                 height={90}
                 alt="header logo"
+                className={`${style.header_logo} ${mediaStyle.header_logo}`}
               />
             </NavigationLink>
 
