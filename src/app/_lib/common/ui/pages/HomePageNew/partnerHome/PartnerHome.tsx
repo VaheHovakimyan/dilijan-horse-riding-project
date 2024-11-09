@@ -27,6 +27,50 @@ const sliderParams = {
   }
 }
 
+interface IPartner {
+  src: string;
+  alt: string;
+}
+
+const partners: IPartner[] = [
+  {
+    src: 'https://www.digitain.com/wp-content/uploads/2024/06/cropped-Digitain_Horizontal_Header-1.png',
+    alt: 'Digitain'
+  },
+  {
+    src: 'https://static.springbuilder.site/fs/userFiles-v2/softconstruct-18748504/images/logo.svg?v=1699961894',
+    alt: 'Softconstract'
+  },
+  // {
+  //   src: 'https://www.evoca.am/images-cache/news/1/16120143492752/510x383.png',
+  //   alt: 'Evocabank'
+  // },
+  {
+    src: 'https://static.ucraft.net/fs/ucraft/userFiles/fastbank/images/logo.svg?v=1667973119',
+    alt: 'Fast bank'
+  },
+  {
+    src: 'https://static.ucraft.net/fs/ucraft/userFiles/fastbank/images/logo.svg?v=1667973119',
+    alt: 'Go to Dili'
+  },
+  {
+    src: 'https://hover.am/img/316966433504f5e1.webp',
+    alt: 'Hover hotel'
+  },
+  {
+    src: 'https://www.acba.am/pics/acba_b_logo.png',
+    alt: 'Acba bank'
+  },
+  {
+    src: 'https://ingoarmenia.am/tmpl/assets/build/images/ing.png',
+    alt: 'Ingo Armenia'
+  },
+  {
+    src: 'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88',
+    alt: 'Double coconut'
+  }
+];
+
 export const PartnerHome = ({ }: {}) => {
 
   return (
@@ -40,18 +84,15 @@ export const PartnerHome = ({ }: {}) => {
             pauseOnMouseEnter: true,
             disableOnInteraction: false
           }}
-          // onSlideChange={() => console.log('slide change')}
-          // onSwiper={(swiper) => console.log(swiper)}
+          style={{height: '50px', alignItems: 'center'}}
         >
-          <SwiperSlide><img src={'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://www.digitain.com/wp-content/uploads/2024/06/cropped-Digitain_Horizontal_Header-1.png'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://www.digitain.com/wp-content/uploads/2024/06/cropped-Digitain_Horizontal_Header-1.png'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://static.springbuilder.site/fs/userFiles-v2/softconstruct-18748504/images/logo.svg?v=1699961894'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
-          <SwiperSlide><img src={'https://static.springbuilder.site/fs/userFiles-v2/softconstruct-18748504/images/logo.svg?v=1699961894'} alt="image1" className={style.swiper_item_image} /></SwiperSlide>
+          {partners.map((item: IPartner, index: number) => {
+            return (
+              <SwiperSlide style={{height: '100%'}} key={index}>
+                <img src={item.src} alt={item.alt} className={style.swiper_item_image} />
+              </SwiperSlide>
+            )
+          })}
         </Swiper>
       </div>
     </div>

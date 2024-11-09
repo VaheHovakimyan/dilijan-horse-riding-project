@@ -5,8 +5,8 @@
     margin: 48px 0;
     .swiper_item_image {
       width: 100%;
-      height: auto;
-      object-fit: cover;
+      height: 100%;
+      // object-fit: cover;
       object-position: center;
     }
   }

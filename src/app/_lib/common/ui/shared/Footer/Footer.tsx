@@ -4,7 +4,7 @@ import Image from "next/image";
 import style from "./Footer.module.scss";
 import mediaStyle from './FooterMedia.module.scss';
 
-import footer_logo from '../../assets/images/header_logo_.jpg';
+import footer_logo from '../../assets/images/header_logo_footer.jpg';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -33,13 +33,28 @@ export const Footer = ({ }: {}) => {
               <p className={`${style.footer_social_contact} ${mediaStyle.footer_social_contact}`}>{t('contacts.email')}</p>
             </div>
             <div className={`${style.footer_social_icons_div} ${mediaStyle.footer_social_icons_div}`}>
-              <a href="https://www.facebook.com/dilijanhorseriding/" target="_blank" className={style.footer_social_icon_link}>
+              <a
+                href="https://www.facebook.com/dilijanhorseriding/"
+                className={style.footer_social_icon_link}
+                aria-label="Facebook"
+                target="_blank"
+              >
                 <FacebookIcon className={`${style.footer_social_icon} ${mediaStyle.footer_social_icon}`} />
               </a>
-              <a href="https://www.instagram.com/dilijan_horseriding/" target="_blank" className={style.footer_social_icon_link}>
+              <a
+                href="https://www.instagram.com/dilijan_horseriding/"
+                className={style.footer_social_icon_link}
+                aria-label="Instagram"
+                target="_blank"
+              >
                 <InstagramIcon className={`${style.footer_social_icon} ${mediaStyle.footer_social_icon}`} />
               </a>
-              <a href="#" target="_blank" className={style.footer_social_icon_link}>
+              <a
+                href="#"
+                className={style.footer_social_icon_link}
+                aria-label="Telegram"
+                target="_blank"
+              >
                 <TelegramIcon className={`${style.footer_social_icon} ${mediaStyle.footer_social_icon}`} />
               </a>
             </div>
@@ -61,7 +76,14 @@ export const Footer = ({ }: {}) => {
             {t('mapTitle')}
           </p>
           <div className={`${style.footer_map} ${mediaStyle.footer_map}`}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.415777499316!2d44.97570177550167!3d40.77487263376502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404055567b9935e5%3A0x17606dbcb9a0e871!2sDilijan%20Horse%20riding!5e0!3m2!1sru!2sam!4v1720170929648!5m2!1sru!2sam" width={'100%'} height={'100%'} style={{ border: 0 }} loading="lazy"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.415777499316!2d44.97570177550167!3d40.77487263376502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404055567b9935e5%3A0x17606dbcb9a0e871!2sDilijan%20Horse%20riding!5e0!3m2!1sru!2sam!4v1720170929648!5m2!1sru!2sam"
+              title="Footer map"
+              width={'100%'}
+              height={'100%'}
+              style={{ border: 0 }}
+              loading="lazy">
+            </iframe>
           </div>
         </div>
       </div>

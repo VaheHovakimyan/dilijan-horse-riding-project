@@ -35,22 +35,21 @@ const Header = () => {
             <div className={`${style.routes_accordion} ${mediaStyle.routes_accordion}`}>
               <nav>
                 <div className={`${style.routes_div_accordion} ${mediaStyle.routes_div_accordion}`}>
-                  <NavigationLink href={"/"} className={style.header_nav_link}><p>{t("home")}</p></NavigationLink>
-                  <NavigationLink href={"/#services"} className={style.header_nav_link}><p>{t("services")}</p></NavigationLink>
-                  <NavigationLink href={"/gallery"} className={style.header_nav_link}><p>{t("gallery")}</p></NavigationLink>
-                  <NavigationLink href={"/about"} className={style.header_nav_link}><p>{t("about")}</p></NavigationLink>
+                  <NavigationLink href={"/"} className={style.header_nav_link}>
+                    <p className={style.header_nav_link_text}>{t("home")}</p>
+                  </NavigationLink>
+                  <NavigationLink href={"/#services"} className={style.header_nav_link}>
+                    <p className={style.header_nav_link_text}>{t("services")}</p>
+                  </NavigationLink>
+                  <NavigationLink href={"/gallery"} className={style.header_nav_link}>
+                    <p className={style.header_nav_link_text}>{t("gallery")}</p>
+                  </NavigationLink>
+                  <NavigationLink href={"/about"} className={style.header_nav_link}>
+                    <p className={style.header_nav_link_text}>{t("about")}</p>
+                  </NavigationLink>
                 </div>
               </nav>
             </div>
-
-            <nav>
-              <div className={`${style.routes_div} ${mediaStyle.routes_div}`}>
-                <NavigationLink href={"/"} className={style.header_nav_link}><p>{t("home")}</p></NavigationLink>
-                <NavigationLink href={"/#services"} className={style.header_nav_link}><p>{t("services")}</p></NavigationLink>
-                <NavigationLink href={"/gallery"} className={style.header_nav_link}><p>{t("gallery")}</p></NavigationLink>
-                <NavigationLink href={"/about"} className={style.header_nav_link}><p>{t("about")}</p></NavigationLink>
-              </div>
-            </nav>
 
             <div className={`${style.header_contact_lang} ${mediaStyle.header_contact_lang}`}>
               <LocaleSwitcher />

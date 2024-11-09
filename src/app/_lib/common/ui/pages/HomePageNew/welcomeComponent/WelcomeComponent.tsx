@@ -1,8 +1,8 @@
-
 import React from "react";
 import style from "./WelcomeComponent.module.scss";
 import mediaStyle from './WelcomeComponentMedia.module.scss';
 import NavigationLink from "@/app/_components/NavigationLink";
+import { useTranslations } from "next-intl";
 
 // const getData = async () => {
 //   try {
@@ -16,7 +16,8 @@ import NavigationLink from "@/app/_components/NavigationLink";
 
 
 const WelcomeComponent = () => {
-
+  
+  const t = useTranslations("WelcomeComponent");
 
   return (
     <div className={`${style.welcome_main} ${mediaStyle.welcome_main}`}>
@@ -26,6 +27,7 @@ const WelcomeComponent = () => {
         muted
         className={`${style.welcome_main_video} ${mediaStyle.welcome_main_video}`}
         >
+        <track default kind="captions"/>
         <source src="/horse_video.mp4" />
       </video>
       <div className={`${style.welcome_main_opacity} ${mediaStyle.welcome_main_opacity}`}>
@@ -35,7 +37,7 @@ const WelcomeComponent = () => {
             ՍԱՐԵՐ, ՁՈՐԵՐ ՈՒ ԼԻ՜ՔԸ ՍԵՐ
           </p>
           <NavigationLink href={"/#services"} className={`${style.welcome_content_btn_link} ${mediaStyle.welcome_content_btn_link}`}>
-            <button className={`${style.welcome_content_btn} ${mediaStyle.welcome_content_btn}`}>Our services</button>
+            <button className={`${style.welcome_content_btn} ${mediaStyle.welcome_content_btn}`}>{t('button')}</button>
           </NavigationLink>
         </div>
       </div>

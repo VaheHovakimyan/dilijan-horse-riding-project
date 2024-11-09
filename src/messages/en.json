@@ -18,6 +18,9 @@
     "gallery": "Gallery",
     "about": "About us"
   },
+  "WelcomeComponent": {
+    "button": "OUR SERVICES"
+  },
   "OurServices": {
     "title": "Our Services",
     "services": {
