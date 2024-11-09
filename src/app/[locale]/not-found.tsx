@@ -1,22 +1,11 @@
+import React from "react"
+import NavigationLink from "../_components/NavigationLink";
 
-import React from "react";
-
-
-import cl from "classnames";
-
-import Link from "next/link";
-
-export function NotFound ({
-
-}: {
-
-
-}) {
-    return(
-        <div >
+export function NotFound({ }: {}) {
+    return (
+        <>
             <div className="container">
                 <div className="row">
-          
                     <div className="col-md-6 align-self-center">
                         <h1>404</h1>
                         <h2>UH OH! You are lost.</h2>
@@ -24,15 +13,15 @@ export function NotFound ({
                             How you got here is a mystery. But you can click the button below
                             to go back to the homepage.
                         </p>
-                        <div>
-                            <Link  style={{display: "inline-flex"}} href='/'>
+                        <>
+                            <NavigationLink style={{ display: "inline-flex" }} href={"/"}>
                                 Home
-                            </Link>
-                        </div>
+                            </NavigationLink>
+                        </>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

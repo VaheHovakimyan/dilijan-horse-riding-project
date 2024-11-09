@@ -11,11 +11,11 @@
       .header_content {
         flex-direction: column;
         padding: 0 40px;
-        .routes_div {
-          display: none;
-        }
         .routes_accordion{
-          display: flex;
+          .routes_div_accordion{
+            flex-direction: column;
+            gap: 8px;
+          }
         }
         .header_contact_lang{
           margin-top: 16px;

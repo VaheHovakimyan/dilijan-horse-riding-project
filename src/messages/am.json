@@ -18,6 +18,9 @@
     "about": "Մեր մասին",
     "gallery": "Պատկերասրահ"
   },
+  "WelcomeComponent": {
+    "button": "ՄԵՐ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԸ"
+  },
   "OurServices": {
     "title": "Մեր ծառայությունները",
     "services": {
@@ -56,7 +59,7 @@
   "Footer": {
     "contacts": {
       "telephone": "Հեռախոսահամար: (+374)77-97-73-34",
-      "address": "Հասցե: Դիլիջան, Village of Haghartsin",
+      "address": "Հասցե: Դիլիջան, գյուղ Հաղարծին",
       "email": "Էլ․ հասցե: dilijanhorseriding@gmail.com"
     },
     "FooterDescription": {
