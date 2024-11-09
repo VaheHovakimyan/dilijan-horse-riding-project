@@ -61,7 +61,7 @@ export const Footer = ({ }: {}) => {
           </div>
         </div>
         <div className={`${style.footer_mid_div_flex} ${mediaStyle.footer_mid_div_flex}`}>
-          <h3 className={`${style.footer_mid_div_title} ${mediaStyle.footer_mid_div_title}`}>{t('FooterDescription.title')}</h3>
+          <p className={`${style.footer_mid_div_title} ${mediaStyle.footer_mid_div_title}`}>{t('FooterDescription.title')}</p>
           <div>
             <p className={`${style.footer_mid_div_text} ${mediaStyle.footer_mid_div_text}`}>
               {t('FooterDescription.description')}
