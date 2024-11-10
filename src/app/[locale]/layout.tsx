@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dilijan Horse Riding",
   description: "Dilijan Horse Riding",
-  keywords: ["Horse", "Riding", "Dilijan", "Horse Riding", "Dilijan Horse Riding", "Services", "", ""],
+  keywords: ["Horse", "Riding", "Dilijan", "Horse Riding", "Dilijan Horse Riding", "Services", "Верховая езда", "Джиппинг в Диматс", "Джиппинг", "Тимбилдинг", "Фотосессия", "Кемпинг", "Квадроцикл"],
   icons: "/favicon.ico",
   openGraph: {
     title: "Dilijan Horse Riding, official website",
