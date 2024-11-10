@@ -1,5 +1,4 @@
-'use client'
-
+'use client';
 
 import React from "react";
 import style from "./PartnerHome.module.scss";
@@ -41,17 +40,13 @@ const partners: IPartner[] = [
     src: 'https://static.springbuilder.site/fs/userFiles-v2/softconstruct-18748504/images/logo.svg?v=1699961894',
     alt: 'Softconstract'
   },
-  // {
-  //   src: 'https://www.evoca.am/images-cache/news/1/16120143492752/510x383.png',
-  //   alt: 'Evocabank'
-  // },
   {
-    src: 'https://static.ucraft.net/fs/ucraft/userFiles/fastbank/images/logo.svg?v=1667973119',
-    alt: 'Fast bank'
+    src: 'https://i.ibb.co/tb4Nw95/evoca-logo.png',
+    alt: 'Evoca bank'
   },
   {
     src: 'https://static.ucraft.net/fs/ucraft/userFiles/fastbank/images/logo.svg?v=1667973119',
-    alt: 'Go to Dili'
+    alt: 'Fast bank'
   },
   {
     src: 'https://hover.am/img/316966433504f5e1.webp',
@@ -62,7 +57,7 @@ const partners: IPartner[] = [
     alt: 'Acba bank'
   },
   {
-    src: 'https://ingoarmenia.am/tmpl/assets/build/images/ing.png',
+    src: 'https://i.ibb.co/M7BkMD1/logo-new-3747198b.png',
     alt: 'Ingo Armenia'
   },
   {
@@ -84,11 +79,14 @@ export const PartnerHome = ({ }: {}) => {
             pauseOnMouseEnter: true,
             disableOnInteraction: false
           }}
-          style={{height: '50px', alignItems: 'center'}}
+          style={{ height: '50px', alignItems: 'center' }}
         >
           {partners.map((item: IPartner, index: number) => {
             return (
-              <SwiperSlide style={{height: '100%'}} key={index}>
+              <SwiperSlide
+                style={{height: '100%'}}
+                key={index}
+              >
                 <img src={item.src} alt={item.alt} className={style.swiper_item_image} />
               </SwiperSlide>
             )
