@@ -6,13 +6,16 @@
 
 .allrights_main{
   background-color: $green_main;
-  // height: 50px;
   border-top: 1px white dashed;
   .allrights_flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 24px;
     color: white;
+    .allrights_author{
+      text-decoration: underline;
+      color: white;
+    }
   }
 }
