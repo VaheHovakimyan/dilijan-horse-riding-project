@@ -25,11 +25,15 @@
   .gallery_home_main {
     .gallery_home {
       .gallery_home_main_1 {
+        margin-right: -8px;
+        grid-template-columns: 2fr 1fr 0fr;
         .gallery_home_main_item {
           height: 200px;
         }
       }
       .gallery_home_main_2 {
+        margin-left: -8px;
+        grid-template-columns: 0fr 1fr 2fr;
         .gallery_home_main_item {
           height: 200px;
           .gallery_home_main_item_opacity {
