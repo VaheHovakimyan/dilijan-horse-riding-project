@@ -57,14 +57,14 @@ export const GalleryPage = ({ }: {}) => {
   const galleryData: IGallery[] = [
     {
       firstRowImages: [
-        firstImage.src,
-        secondImage.src,
-        thirdImage.src
+        'https://i.ibb.co/5MQjrs3/home-gallery-1.webp',
+        'https://i.ibb.co/LtDv9Cs/home-gallery-2-1.webp',
+        'https://i.ibb.co/DphBS3S/home-gallery-3-1.webp'
       ],
       secondRowImages: [
-        secondImage.src,
-        firstImage.src,
-        thirdImage.src
+        'https://i.ibb.co/x3wKDfs/home-gallery-4.webp',
+        'https://i.ibb.co/C2m0FDD/home-gallery-5.webp',
+        'https://i.ibb.co/92YfYsJ/home-gallery-6.webp'
       ],
       thirdRowImages: [
         thirdImage.src,
