@@ -57,7 +57,7 @@ const partners: IPartner[] = [
     alt: 'Acba bank'
   },
   {
-    src: 'https://i.ibb.co/M7BkMD1/logo-new-3747198b.png',
+    src: 'https://i.ibb.co/cxQd4rd/logo-new-3747198b.webp',
     alt: 'Ingo Armenia'
   },
   {
