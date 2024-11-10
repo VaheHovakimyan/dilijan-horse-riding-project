@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dilijan Horse Riding",
   description: "Dilijan Horse Riding",
+  keywords: ["Horse", "Riding", "Dilijan", "Horse Riding", "Dilijan Horse Riding", "Services", "Верховая езда", "Джиппинг в Диматс", "Джиппинг", "Тимбилдинг", "Фотосессия", "Кемпинг", "Квадроцикл"],
   icons: "/favicon.ico",
   openGraph: {
     title: "Dilijan Horse Riding, official website",
@@ -30,7 +31,7 @@ const RootLayout = async ({
   
 
   return (
-    <html lang="am">
+    <html lang="ru">
       <body className={inter.className}>
           <Header />
           <main>{children}</main>
@@ -41,5 +42,4 @@ const RootLayout = async ({
   );
 };
 
-export default RootLayout
-
+export default RootLayout;
