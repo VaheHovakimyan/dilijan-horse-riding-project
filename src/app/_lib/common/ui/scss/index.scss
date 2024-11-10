@@ -1,27 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   scroll-behavior: smooth;
   overflow: unset;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   user-select: none;
 }
 
-svg{
+svg {
   cursor: pointer;
 }
 
@@ -29,7 +29,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   text-indent: 1px;
-  text-overflow: '';
+  text-overflow: "";
 }
 
 @font-face {
@@ -39,5 +39,5 @@ select {
 }
 
 select {
-  font-family: 'NotoColorEmojiLimited', 'serif';
+  font-family: "NotoColorEmojiLimited", "serif";
 }
