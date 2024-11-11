@@ -13,13 +13,20 @@
     }
     .our_services_home_flex {
       margin: 0 20px;
+      padding: 0;
       .our_services_home_item {
-        height: 250px;
+        flex-direction: column !important;
+        height: auto;
         .our_services_home_item_opacity {
-          .our_services_home_item_p_center {
-            .our_services_home_item_p {
-              font-size: 18px;
-            }
+          height: 300px;
+        }
+        .our_services_home_item_description_div{
+          padding: 24px 28px 40px 28px;
+          .our_services_home_item_description_title{
+            font-size: 28px;
+          }
+          .our_services_home_item_description_p{
+            font-size: 16px;
           }
         }
       }
@@ -31,6 +38,22 @@
   .our_services_home_main {
     .our_services_home_title {
       font-size: 17px;
+    }
+    .our_services_home_flex {
+      .our_services_home_item {
+        .our_services_home_item_opacity {
+          height: 220px;
+        }
+        .our_services_home_item_description_div{
+          padding: 18px 16px 32px 16px;
+          .our_services_home_item_description_title{
+            font-size: 20px;
+          }
+          .our_services_home_item_description_p{
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }

@@ -1,0 +1,27 @@
+// Imports
+
+@import "../../scss/variables/variables.scss";
+@import "../../scss/variables/mixins.scss";
+
+// Style
+
+@include Bg_mobile {
+  .allrights_main{
+    .allrights_flex{
+      .allrights_flex_text{
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@include St_mobile {
+  .allrights_main{
+    .allrights_flex{
+      .allrights_flex_text{
+        font-size: 12.5px;
+      }
+    }
+  }
+}
