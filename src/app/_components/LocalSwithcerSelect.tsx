@@ -42,6 +42,7 @@ export default function LocaleSwitcherSelect({
           'relative text-gray-400',
           isPending && 'transition-opacity [&:disabled]:opacity-30'
         )}
+        for="lng-select"
       ></label>
       <select
         className={`${style.header_lang} ${mediaStyle.header_lang}`}
