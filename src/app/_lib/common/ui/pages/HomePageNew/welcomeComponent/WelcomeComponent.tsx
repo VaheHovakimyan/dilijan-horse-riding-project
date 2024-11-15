@@ -25,6 +25,7 @@ const WelcomeComponent = () => {
         loop
         autoPlay
         muted
+        playsinline
         className={`${style.welcome_main_video} ${mediaStyle.welcome_main_video}`}
         >
         <track default kind="captions"/>
