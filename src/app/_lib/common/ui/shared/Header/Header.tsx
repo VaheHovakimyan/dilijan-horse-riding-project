@@ -26,7 +26,7 @@ const Header = () => {
             <NavigationLink href={"/"}>
               <Image
                 src={header_logo}
-                width={205}
+                width={198.6}
                 height={90}
                 alt="header logo"
                 className={`${style.header_logo} ${mediaStyle.header_logo}`}
