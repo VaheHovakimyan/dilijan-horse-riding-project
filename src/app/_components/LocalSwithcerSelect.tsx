@@ -49,6 +49,7 @@ export default function LocaleSwitcherSelect({
         disabled={isPending}
         onChange={onSelectChange}
         aria-label="lng-select"
+        id="lng-select"
       >
         {children}
       </select>
