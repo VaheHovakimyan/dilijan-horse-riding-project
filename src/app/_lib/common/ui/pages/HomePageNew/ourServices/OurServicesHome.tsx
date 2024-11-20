@@ -32,7 +32,7 @@ const OurServicesHome = () => {
               </div>
               <div className={`${style.our_services_home_item_description_div} ${mediaStyle.our_services_home_item_description_div}`}>
                 <h2 className={`${style.our_services_home_item_description_title} ${mediaStyle.our_services_home_item_description_title}`}>{t(`${item}.name`)}</h2>
-                <p className={`${style.our_services_home_item_description_p} ${mediaStyle.our_services_home_item_description_p}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.</p>
+                <p className={`${style.our_services_home_item_description_p} ${mediaStyle.our_services_home_item_description_p}`}>{t(`${item}.description`)}</p>
               </div>
             </div>
           )

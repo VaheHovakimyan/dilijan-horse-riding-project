@@ -27,33 +27,51 @@
       "horseriding": {
         "key": "0",
         "name": "Верховая езда",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
         "image": "https://i.ibb.co/g3mMwk2/IMG-6462.webp"
       },
       "jeeping": {
         "key": "1",
         "name": "Джиппинг в Диматс",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
         "image": "https://i.ibb.co/bQd602w/IMG-8847-2.webp"
       },
       "teambuilding": {
         "key": "2",
         "name": "Тимбилдинг",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
         "image": "https://i.ibb.co/L9gJCLm/IMG-9410.webp"
       },
       "photoshoot": {
         "key": "3",
         "name": "Фотосессия",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
         "image": "https://i.ibb.co/3dNGVp6/IMG-2885.webp"
       },
       "camping": {
         "key": "4",
         "name": "Кемпинг",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
         "image": "https://i.ibb.co/yR9r7Pz/IMG-9067.webp"
       },
       "quadricycle": {
         "key": "5",
         "name": "Квадроцикл",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
         "image": "https://i.ibb.co/qsRNmrD/IMG-1346.webp"
       }
+    }
+  },
+  "AboutUs": {
+    "firstSection": {
+      "img": "",
+      "alt": "about_first_image",
+      "description": "Dilijan Horseriding-ը որպես լեռնային ձիավարության և էքստրիմի կենտրոն, բացվել է 2022 թվականի մայիսի 8-ին, Տավուշի մարզի Հաղարծին գյուղում՝ գյուղի պատվավոր և հարգարժան բնակիչ, Հայաստանի ամենամեծ ձիաբույծներից Արծրուն Ոսկանյանի ու նրա որդու Սարգիսի և իր ընկեր Մարութի կողմից։ Ի սկզբանե գաղափարը եղել է լեռնային ձիավարությունը Հայաստանում որպես տուրիզմի առանձին ճյուղ ներկայացնելը և ձևավորելը մարդկանց մեջ սերը դեպի բնությունը, կենդանիները և հայրենի բնաշխարհը։ Գաղափարի կյանքի կոչման հետ միասին ձևավորվեցին տուրիզմում առաջարկվելիք նոր ուղղություններ, ինչպիսիք են օրինակ՝ ամենագնացներով արշավը դեպի Դիմաց լեռ ու հարակից Տավուշյան տեսարժան վայրեր, կորպորատիվ խմբային արշավները, ամենշաբաթյա տուրերը, ֆոտոսեսիաները և մի շարք այլ ծառայություններ։"
+    },
+    "secondSection": {
+      "img": "",
+      "alt": "about_second_image",
+      "description": "Dilijan Horseriding-ի առանձնահատկությունը կայանում է նրանում, որ մարդիկ այստեղ հայտնվելով Տավուշյան լեռնային բնության մեջ, կտրվում են լիակատար իրականությունից, հանգստանում են, շփվում կենդանիների հետ ու վայելում լեռներով պարուրված տեսարանները։ Մինչ օրս, այս կարճ ժամանակահատվածում Dilijan Horseridig-ը հասցրել է իր տեղը գրավել Հայաստանի ամենաայցելվող ժամանցային վայրերի ցանկում ու դարձել շատերի պարտադիր սիրելի վայրերից մեկը՝ մշտապես նվիրելով սեր, հոգատարություն ու մեծ էմոցիաների աղբյուր իր հյուրերին, որոնք ամեն անգամ իրենց հետ տանում են անբացատրելի զգացողություններ ու երանելի հիշողություններ։"
     }
   },
   "Footer": {
