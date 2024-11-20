@@ -45,7 +45,7 @@
           max-height: 200px;
         }
         .about_page_image_text {
-          font-size: 16px;
+          font-size: 16px !important;
           text-align: center;
         }
       }
@@ -64,7 +64,7 @@
           max-height: 200px;
         }
         .about_page_image_text {
-          font-size: 16px;
+          font-size: 16px !important;
           text-align: center;
         }
       }
@@ -80,7 +80,7 @@
           margin: 0 16px 8px 0;
         }
         .about_page_image_text {
-          font-size: 13px;
+          font-size: 13px !important;
         }
       }
       .about_page_video_div {
@@ -95,7 +95,7 @@
           max-height: 200px;
         }
         .about_page_image_text {
-          font-size: 13px;
+          font-size: 13px !important;
         }
       }
     }
