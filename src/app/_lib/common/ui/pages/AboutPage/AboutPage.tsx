@@ -3,7 +3,7 @@ import style from "./AboutPage.module.scss";
 import mediaStyle from './AboutPageMedia.module.scss';
 import PageTitleComponent from "../../shared/PageTitleComponent/PageTitleComponent";
 import about_image_1 from '../../assets/images/about/about_first.webp';
-import about_image_2 from '../../assets/images/about/about_second.jpg';
+import about_image_2 from '../../assets/images/about/about_second.webp';
 import { useTranslations } from "next-intl";
 
 
