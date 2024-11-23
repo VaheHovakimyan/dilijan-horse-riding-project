@@ -2,7 +2,8 @@ import React, { FC } from "react";
 import style from "./AboutPage.module.scss";
 import mediaStyle from './AboutPageMedia.module.scss';
 import PageTitleComponent from "../../shared/PageTitleComponent/PageTitleComponent";
-import about_image_1 from '../../assets/images/about/about_main.webp';
+import about_image_1 from '../../assets/images/about/about_first.webp';
+import about_image_2 from '../../assets/images/about/about_second.webp';
 import { useTranslations } from "next-intl";
 
 
@@ -26,7 +27,7 @@ const AboutPage: FC<IAboutPage> = ({ data }) => {
         </div>
 
         <div className={`${style.about_page_image_text_div_second} ${mediaStyle.about_page_image_text_div_second}`}>
-          <img src={about_image_1.src} alt="about_second_image" className={`${style.about_page_image} ${mediaStyle.about_page_image}`} />
+          <img src={about_image_2.src} alt="about_second_image" className={`${style.about_page_image} ${mediaStyle.about_page_image}`} />
           <div className={`${style.about_page_image_text} ${mediaStyle.about_page_image_text}`}>
             {t("secondSection.description")}
           </div>
