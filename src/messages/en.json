@@ -26,38 +26,38 @@
     "services": {
       "horseriding": {
         "key": "0",
-        "name": "Horse riding",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
+        "name": "HORSE RIDING",
+        "description": "Riding takes place in the open air, along specially designed mountain trails in the wild. After receiving a briefing and learning safety rules, guests can ride horses either independently or accompanied by our guides, with no prior experience required.",
         "image": "https://i.ibb.co/g3mMwk2/IMG-6462.webp"
       },
       "jeeping": {
         "key": "1",
-        "name": "Jeeping to Dimac",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
+        "name": "JEEPING TOUR TO MOUNT DIMATS",
+        "description": "The trip is conducted in SUVs, accompanied by experienced and knowledgeable drivers familiar with the area. Along the way to the summit, guests can view the Sarcapat mountain range, Shaghot waterfall, and even herds of wild horses. Upon reaching the peak at 2,378 meters, guests can enjoy the breathtaking grandeur of Mount Dimats.",
         "image": "https://i.ibb.co/bQd602w/IMG-8847-2.webp"
       },
       "teambuilding": {
         "key": "2",
-        "name": "Team building",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
+        "name": "TEAMBUILDING",
+        "description": "Corporate events are available for groups of seven or more, providing an unusual and exciting team experience filled with extreme emotions and lasting memories.",
         "image": "https://i.ibb.co/L9gJCLm/IMG-9410.webp"
       },
       "photoshoot": {
         "key": "3",
-        "name": "Photo shoot",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
+        "name": "PHOTOSHOOT",
+        "description": "Photo sessions take place in stunning open spaces with breathtaking mountain views, often accompanied by horses. Guests can either bring their own photographer or pre-book a session with one of our professional photographers.",
         "image": "https://i.ibb.co/3dNGVp6/IMG-2885.webp"
       },
       "camping": {
         "key": "4",
-        "name": "Camping",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
+        "name": "HIKING",
+        "description": "Our hiking tours, which include tent-based camping, are perfect for those who value being close to nature and prefer active recreation. We provide all the necessary equipment and gear to ensure a comfortable and unforgettable experience. Advanced booking is required.",
         "image": "https://i.ibb.co/yR9r7Pz/IMG-9067.webp"
       },
       "quadricycle": {
         "key": "5",
-        "name": "Quad bike",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus autem fugiat tenetur veritatis temporibus porro sunt quam, officiis quos ut aut ad ipsam reiciendis exercitationem numquam saepe facilis. Dolorum.",
+        "name": "ATV HIKING",
+        "description": "ATV rides are conducted in designated areas following thorough instructions and safety training. This type of adventure is suitable even for beginners, providing an exhilarating and energy-filled experience that lasts all day.",
         "image": "https://i.ibb.co/qsRNmrD/IMG-1346.webp"
       }
     }
@@ -66,12 +66,12 @@
     "firstSection": {
       "img": "",
       "alt": "about_first_image",
-      "description": "Dilijan Horseriding-ը որպես լեռնային ձիավարության և էքստրիմի կենտրոն, բացվել է 2022 թվականի մայիսի 8-ին, Տավուշի մարզի Հաղարծին գյուղում՝ գյուղի պատվավոր և հարգարժան բնակիչ, Հայաստանի ամենամեծ ձիաբույծներից Արծրուն Ոսկանյանի ու նրա որդու Սարգիսի և իր ընկեր Մարութի կողմից։ Ի սկզբանե գաղափարը եղել է լեռնային ձիավարությունը Հայաստանում որպես տուրիզմի առանձին ճյուղ ներկայացնելը և ձևավորելը մարդկանց մեջ սերը դեպի բնությունը, կենդանիները և հայրենի բնաշխարհը։ Գաղափարի կյանքի կոչման հետ միասին ձևավորվեցին տուրիզմում առաջարկվելիք նոր ուղղություններ, ինչպիսիք են օրինակ՝ ամենագնացներով արշավը դեպի Դիմաց լեռ ու հարակից Տավուշյան տեսարժան վայրեր, կորպորատիվ խմբային արշավները, ամենշաբաթյա տուրերը, ֆոտոսեսիաները և մի շարք այլ ծառայություններ։"
+      "description": "Dilijan Horse Riding, a center for horse riding and extreme sports in the mountains, was established on May 8, 2022, in the village of Haghartsin in the Tavush region. It was founded by Artsrun Voskanyan, a highly respected resident of the village and one of Armenia’s leading horse breeders, along with his son Sarkis and their friend Marut. Initially, the idea was to offer mountain trips in Armenia as an additional attraction for tourists, fostering a love for nature, animals, and Armenia’s natural beauty. Over time, the project expanded to include new directions in tourism, such as off-road trips, excursions to Mount Dimats and other sights in Tavush, corporate group trips, weekly tours, photo sessions, and a range of additional services."
     },
     "secondSection": {
       "img": "",
       "alt": "about_second_image",
-      "description": "Dilijan Horseriding-ի առանձնահատկությունը կայանում է նրանում, որ մարդիկ այստեղ հայտնվելով Տավուշյան լեռնային բնության մեջ, կտրվում են լիակատար իրականությունից, հանգստանում են, շփվում կենդանիների հետ ու վայելում լեռներով պարուրված տեսարանները։ Մինչ օրս, այս կարճ ժամանակահատվածում Dilijan Horseridig-ը հասցրել է իր տեղը գրավել Հայաստանի ամենաայցելվող ժամանցային վայրերի ցանկում ու դարձել շատերի պարտադիր սիրելի վայրերից մեկը՝ մշտապես նվիրելով սեր, հոգատարություն ու մեծ էմոցիաների աղբյուր իր հյուրերին, որոնք ամեն անգամ իրենց հետ տանում են անբացատրելի զգացողություններ ու երանելի հիշողություններ։"
+      "description": "The uniqueness of Dilijan Horseriding lies in its ability to immerse visitors in the mountain wilderness, offering an escape from reality. Guests can relax, connect with animals, and be inspired by the breathtaking mountain views. In a remarkable short time, Dilijan Horseriding has become one of the most visited places in Armenia, earning a reputation as a reliable and welcoming destination. It offers its guests love, care, and unforgettable emotions, leaving them with indescribable sensations and pleasant memories."
     }
   },
   "Footer": {
@@ -82,7 +82,7 @@
     },
     "FooterDescription": {
       "title": "Come feel the breath of the mountains",
-      "description": "Dilijan Horseriding-ը պրոեկտ է, որով ապրում ու զարգանում է գյուղը, ի շնորհիվ նախաձեռնության տուրիզմի շատ ուղղություններ Տավուշի մարզում դարձան էլ ավելի ճանաչելի, բացվեցին մի շարք հյուրատներ ու մարդիկ սկսեցին մտածել հայրենի բնաշխարհում նոր գաղափարներ արարելու մասին: Մեր գլխավոր առաքելությունն է մեզ այցելող հյուրերի մեջ սերմանել սերը դեպի բնությունը, լեռներն ու կենդանիները, և դա է պատճառը, որ մեր 1000 ավոր հյուրեր գալով մեզ մոտ միշտ գտնում ու իրենց հետ տանում են՝",
+      "description": "Dilijan Horse-riding is a project, that lives and develops the village, thanks to the initiative, many tourism destinations became even more recognizable in Tavush region, a lot of guesthouses were opened and people started to think about creating new ideas in the native environment. Our main mission is to spread a lot of love to nature, mountains and animals in our visitors, and that is the reason, that our 100s of guests coming to us always find and take with them,",
       "slogan": "ՍԱՐԵՐ, ՁՈՐԵՐ ՈՒ ԼԻ՜ ՔԸ ՍԵՐ"
     },
     "mapTitle": "We are on the map"
