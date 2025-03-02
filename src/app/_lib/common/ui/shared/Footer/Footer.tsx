@@ -10,7 +10,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import { useTranslations } from "next-intl";
 
-export const Footer = ({ }: {}) => {
+export const Footer = () => {
 
   const t = useTranslations("Footer");
 

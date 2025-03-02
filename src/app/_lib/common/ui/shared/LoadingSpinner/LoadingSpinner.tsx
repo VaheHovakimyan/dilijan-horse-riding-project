@@ -3,7 +3,7 @@ import style from "./LoadingSpinner.module.scss";
 
 export default function LoadingSpinner() {
   useEffect(() => {
-    let body = document.getElementsByTagName("body")[0];
+    const body = document.getElementsByTagName("body")[0];
     body.style.overflow = "hidden";
     return () => {
       body.style.overflow = "visible";

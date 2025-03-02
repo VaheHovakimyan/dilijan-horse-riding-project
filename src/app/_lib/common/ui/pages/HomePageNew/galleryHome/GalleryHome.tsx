@@ -28,7 +28,7 @@ const GalleryHomeImages: IGalleryHomeImages = {
   ]
 };
 
-export const GalleryHome = ({ }: {}) => {
+export const GalleryHome = () => {
 
   return (
     <NavigationLink href={"/gallery"}>

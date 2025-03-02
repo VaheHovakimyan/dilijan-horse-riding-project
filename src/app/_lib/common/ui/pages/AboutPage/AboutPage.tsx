@@ -7,11 +7,11 @@ import about_image_2 from '../../assets/images/about/about_second.webp';
 import { useTranslations } from "next-intl";
 
 
-interface IAboutPage {
-  data: any
-}
+// interface IAboutPage {
+//   data: any
+// }
 
-const AboutPage: FC<IAboutPage> = ({ data }) => {
+const AboutPage: FC = () => {
   const t = useTranslations("AboutUs");
 
   return (

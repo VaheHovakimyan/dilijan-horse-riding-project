@@ -18,15 +18,9 @@ export const metadata: Metadata = {
 };
 
 const RootLayout = async ({
-  children,
-  params: {
-    lng
-  }
+  children
 }: Readonly<{
   children: React.ReactNode;
-  params: {
-    lng: any
-  }
 }>) => {
   
 

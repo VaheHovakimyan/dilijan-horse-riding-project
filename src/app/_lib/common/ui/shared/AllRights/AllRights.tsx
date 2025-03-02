@@ -4,7 +4,7 @@ import React from "react";
 import style from "./AllRights.module.scss";
 import mediaStyle from './AllRightsMedia.module.scss';
 
-export const AllRights = ({ }: {}) => {
+export const AllRights = () => {
 
   return (
     <div className={`${style.allrights_main} ${mediaStyle.allrights_main}`}>

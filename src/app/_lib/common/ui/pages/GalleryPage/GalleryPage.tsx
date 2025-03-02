@@ -53,7 +53,7 @@ const GalleryImage: FC<IGalleryImage> = ({ img }) => {
 }
 
 
-export const GalleryPage = ({ }: {}) => {
+export const GalleryPage = () => {
   const galleryData: IGallery[] = [
     {
       firstRowImages: [
