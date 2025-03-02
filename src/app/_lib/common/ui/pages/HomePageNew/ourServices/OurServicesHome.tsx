@@ -20,7 +20,6 @@ const OurServicesHome = () => {
       <p className={`${style.our_services_home_title} ${mediaStyle.our_services_home_title}`}>{t('title')}</p>
       <div className={`${style.our_services_home_flex} ${mediaStyle.our_services_home_flex}`}>
         {ourServices?.map((item: string, index: number) => {
-
           return (
             <div
               className={`${style.our_services_home_item} ${mediaStyle.our_services_home_item}`}
