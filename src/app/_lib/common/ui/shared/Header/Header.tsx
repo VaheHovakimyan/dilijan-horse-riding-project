@@ -13,7 +13,6 @@ import Image from "next/image";
 
 
 const Header = () => {
-
   const t = useTranslations("PathnamesPage");
 
   return (

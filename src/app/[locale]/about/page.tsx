@@ -1,7 +1,5 @@
 
 import AboutPage from "@/app/_lib/common/ui/pages/AboutPage/AboutPage";
-import Head from "next/head";
-
 
 // const fetchAboutPageData = async (locale: string) => {
 //   const apiBaseUrl = "http://127.0.0.1:3000";
@@ -14,18 +12,6 @@ import Head from "next/head";
 // };
 
 
-export default async function About({params}:any) {
-  const { lng } = params;
-
-
-
-  // const data = await fetchAboutPageData(lng);
-
-  const data = {};
-
-  return (
-    <>
-      <AboutPage data={data} />
-    </>
-  )
+export default async function About() {
+  return <AboutPage />;
 }

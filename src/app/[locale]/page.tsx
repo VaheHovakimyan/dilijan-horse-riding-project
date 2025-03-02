@@ -20,14 +20,7 @@ const HomePageNew = dynamic(
 // };
 
 
-export default async function Home({ params }: any) {
-  const { lng } = params;
-
-  // const data = await fetchHomePageData(lng);
-
-  // console.log(data);
-  
-  const data = {};
+export default async function Home() {
 
   return (
     <>

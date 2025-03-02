@@ -4,11 +4,8 @@ import GalleryHome from "./galleryHome/GalleryHome";
 import { PartnerHome } from "./partnerHome/PartnerHome";
 import "../../scss/index.scss";
 
-interface IHomePageNew {
-  data: any
-}
 
-const HomePageNew = ({}) => {
+const HomePageNew = () => {
 
   return (
     <>

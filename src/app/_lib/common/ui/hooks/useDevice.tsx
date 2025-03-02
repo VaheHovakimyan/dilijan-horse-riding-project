@@ -1,4 +1,4 @@
-import { FC, useEffect, useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 
 export const useDevice = () => {
   useEffect(() => {

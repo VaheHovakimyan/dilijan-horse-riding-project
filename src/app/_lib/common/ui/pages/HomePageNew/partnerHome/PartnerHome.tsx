@@ -59,14 +59,10 @@ const partners: IPartner[] = [
   {
     src: 'https://i.ibb.co/cxQd4rd/logo-new-3747198b.webp',
     alt: 'Ingo Armenia'
-  },
-  {
-    src: 'https://doublecoconut.com/wp-content/uploads/2024/08/Logo.webp#88',
-    alt: 'Double coconut'
   }
 ];
 
-export const PartnerHome = ({ }: {}) => {
+export const PartnerHome = () => {
 
   return (
     <div className={`${style.partner_home_main_flex} ${mediaStyle.partner_home_main_flex}`}>
